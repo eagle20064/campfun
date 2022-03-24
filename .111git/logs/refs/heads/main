@@ -1,0 +1,35 @@
+0000000000000000000000000000000000000000 c3c967efcfa822d704c269cfaea70f21b359fc26 eagle20064 <eagle20064@icloud.com> 1626513237 +0800	clone: from https://github.com/eason77029/campfun_build.git
+c3c967efcfa822d704c269cfaea70f21b359fc26 a8bb6d628ac8ad7df546bbb889e9d2a44041b4aa eagle20064 <eagle20064@icloud.com> 1626520979 +0800	pull origin main: Fast-forward
+a8bb6d628ac8ad7df546bbb889e9d2a44041b4aa a2efa505ebf1853e114b158b70cd310f138ce20d eagle20064 <eagle20064@icloud.com> 1626521028 +0800	commit: 微更新
+a2efa505ebf1853e114b158b70cd310f138ce20d 90785676a4151926bc03aab9e736368e2bd0e510 eagle20064 <eagle20064@icloud.com> 1626536408 +0800	pull origin main: Fast-forward
+90785676a4151926bc03aab9e736368e2bd0e510 ff943ec6d09b85b5847032c1a5723a76ddee2dd1 eagle20064 <eagle20064@icloud.com> 1626541646 +0800	commit: 修復會員登入問題
+ff943ec6d09b85b5847032c1a5723a76ddee2dd1 c3d74a321fed3f125dd3c0609513e12ba70960e9 eagle20064 <eagle20064@icloud.com> 1626541758 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+c3d74a321fed3f125dd3c0609513e12ba70960e9 ee00da6062dd85ba66b5fb6ca74d8ccccb5beb0d eagle20064 <eagle20064@icloud.com> 1626542013 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+ee00da6062dd85ba66b5fb6ca74d8ccccb5beb0d e44eac1ee988595763f971fc62256a087e47d7ad eagle20064 <eagle20064@icloud.com> 1626576212 +0800	commit: 修正會員登入問題
+e44eac1ee988595763f971fc62256a087e47d7ad 4acfa63b3667747425bd83a515b0b0446e3b6573 eagle20064 <eagle20064@icloud.com> 1626583102 +0800	commit: 123
+4acfa63b3667747425bd83a515b0b0446e3b6573 58d4be8f4cfe96c9f9d3ce9b66f09a0c5befc7ed eagle20064 <eagle20064@icloud.com> 1626583119 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+58d4be8f4cfe96c9f9d3ce9b66f09a0c5befc7ed 502db75c45e18bb50dbb2eb67c1f1a9f04ace4cf eagle20064 <eagle20064@icloud.com> 1626593375 +0800	commit: 修復會員登入後小問題
+502db75c45e18bb50dbb2eb67c1f1a9f04ace4cf 90f1d9ce9aab463447e2514aa26f96dfccccd9d3 eagle20064 <eagle20064@icloud.com> 1626593413 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+90f1d9ce9aab463447e2514aa26f96dfccccd9d3 e57d6ca71c0373fac83ad99d0b320b10bab753d3 eagle20064 <eagle20064@icloud.com> 1626594062 +0800	commit: 修復hover
+e57d6ca71c0373fac83ad99d0b320b10bab753d3 ea941a502490d8dcbf7901df28566847e1d7ef86 eagle20064 <eagle20064@icloud.com> 1626605472 +0800	commit: pull前的儲存
+ea941a502490d8dcbf7901df28566847e1d7ef86 fe4b19bdbd1625e20720fe7228614fd5fe0f200d eagle20064 <eagle20064@icloud.com> 1626605516 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+fe4b19bdbd1625e20720fe7228614fd5fe0f200d 1e9fd319cd09c7446ba290c3c18d1a107d49bc40 eagle20064 <eagle20064@icloud.com> 1626687123 +0800	commit: 將場地租借加入
+1e9fd319cd09c7446ba290c3c18d1a107d49bc40 098b7f5ba2979b6527952f32af426b60ee1b6cc9 eagle20064 <eagle20064@icloud.com> 1626687167 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+098b7f5ba2979b6527952f32af426b60ee1b6cc9 214d859528620cd87748fd8bc916dfd3c21612d1 eagle20064 <eagle20064@icloud.com> 1626699631 +0800	commit (merge): 修改一些小bug
+214d859528620cd87748fd8bc916dfd3c21612d1 22a5d8cc6a1e3ec6a72dcf7d58f93996c6782c07 eagle20064 <eagle20064@icloud.com> 1626699678 +0800	pull origin main: Merge made by the 'recursive' strategy.
+22a5d8cc6a1e3ec6a72dcf7d58f93996c6782c07 6c78907abb5727de6c8ea0914aa5940aadafe81e eagle20064 <eagle20064@icloud.com> 1626708999 +0800	commit: 將場地localstroge移到app.js
+6c78907abb5727de6c8ea0914aa5940aadafe81e 620d2aa4f7656a0fa96394c9cadd3e28e3b8f86c eagle20064 <eagle20064@icloud.com> 1626709100 +0800	commit (merge): Merge branch 'main' of https://github.com/eason77029/campfun_build
+620d2aa4f7656a0fa96394c9cadd3e28e3b8f86c 98ff0bb6b401cdcd1c770aa3a4d8c95627d37e71 eagle20064 <eagle20064@icloud.com> 1626747981 +0800	pull origin main: Fast-forward
+98ff0bb6b401cdcd1c770aa3a4d8c95627d37e71 35d83e6a3bb2a969ce3df552ad7a691488f11d47 eagle20064 <eagle20064@icloud.com> 1626776778 +0800	pull: Fast-forward
+35d83e6a3bb2a969ce3df552ad7a691488f11d47 903c45b6f41c0fa6a192ec9d71ec8c18e5b8954f eagle20064 <eagle20064@icloud.com> 1626785645 +0800	pull: Fast-forward
+903c45b6f41c0fa6a192ec9d71ec8c18e5b8954f a536c064d07eefd5f9b9ec569edf772b48a80278 eagle20064 <eagle20064@icloud.com> 1626789976 +0800	pull: Fast-forward
+a536c064d07eefd5f9b9ec569edf772b48a80278 531d8f458aa43acbf44d49f1fdf4c2c544c61eb1 eagle20064 <eagle20064@icloud.com> 1626790025 +0800	commit: 抓了一支小蟲
+531d8f458aa43acbf44d49f1fdf4c2c544c61eb1 fa227bfa44ac3fdbc261f7892939c175a4516b60 eagle20064 <eagle20064@icloud.com> 1626835560 +0800	pull: Fast-forward
+fa227bfa44ac3fdbc261f7892939c175a4516b60 ae9e2e7ef5f3a87e2563e4e74be04cffcacea0f4 eagle20064 <eagle20064@icloud.com> 1626835581 +0800	commit: 修正場地會員判斷
+ae9e2e7ef5f3a87e2563e4e74be04cffcacea0f4 3178134048954b84921c7c6d4c4a6ef91372dd42 eagle20064 <eagle20064@icloud.com> 1626859064 +0800	pull: Fast-forward
+3178134048954b84921c7c6d4c4a6ef91372dd42 2c7ade1fa3839c44b9584daee1f0f7b19d145aa9 eagle20064 <eagle20064@icloud.com> 1626921932 +0800	commit: 線下訂單修改
+2c7ade1fa3839c44b9584daee1f0f7b19d145aa9 cb6b752f2a744c81caece45bc28d01984236bb4e eagle20064 <eagle20064@icloud.com> 1626921939 +0800	pull: Merge made by the 'recursive' strategy.
+cb6b752f2a744c81caece45bc28d01984236bb4e 11fa3e2bf7ee85305850bcbf24d72709ba8570b1 eagle20064 <eagle20064@icloud.com> 1626938532 +0800	pull: Fast-forward
+11fa3e2bf7ee85305850bcbf24d72709ba8570b1 80b10791afa271328f686cb9b0c19bdc23bb8ae5 eagle20064 <eagle20064@icloud.com> 1626961658 +0800	pull: Fast-forward
+80b10791afa271328f686cb9b0c19bdc23bb8ae5 2266a2157064b6fef9d33ac878dafe47bee0e57c eagle20064 <eagle20064@icloud.com> 1627007393 +0800	pull: Fast-forward
+2266a2157064b6fef9d33ac878dafe47bee0e57c e3a7438d82c85a22492a1d092b253fa0ca231bea eagle20064 <eagle20064@icloud.com> 1627102832 +0800	commit: bug all 修復

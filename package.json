@@ -1,0 +1,76 @@
+{
+  "name": "campfun",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@svg-maps/taiwan": "^1.1.0",
+    "@svg-maps/taiwan.main": "^1.0.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aes256": "^1.1.0",
+    "bootstrap": "^4.6.0",
+    "crypto-js": "^4.1.1",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1",
+    "prettier": "^2.3.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-credit-cards": "^0.8.3",
+    "react-dates": "^21.8.0",
+    "react-dom": "^17.0.2",
+    "react-fast-marquee": "^1.2.1",
+    "react-fontawesome": "^1.7.1",
+    "react-icons": "^4.2.0",
+    "react-rating-stars-component": "^2.2.0",
+    "react-responsive-carousel": "^3.2.19",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "react-svg-map": "^2.2.0",
+    "sass": "^1.35.2",
+    "sha256": "^0.2.0",
+    "slick-carousel": "^1.8.1",
+    "svg-maps": "^1.0.0-beta.1",
+    "sweetalert2": "^11.0.18",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-react": "^1.1.7"
+  }
+}

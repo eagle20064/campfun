@@ -1,0 +1,758 @@
+// 預設變數覆蓋需要在導入Bootstrap之前
+
+// 專題發表時候，遠端就用淺色、現場用深色
+// 遠端
+$mb-gray-bcg: #f9f9f9;
+// 現場發表
+// $mb-gray-bcg: #e4e4e4;
+
+$mb-button-width: 120px;
+$mb-button-hight: 50px;
+
+$mb-avatar-button-width: 120px;
+$mb-avatar-button-hight: 49px;
+
+// Import Bootstrap and its default variables
+// @import '~bootstrap/scss/bootstrap.scss';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
+// main > .container {
+//   padding: 60px 15px 0;
+// }
+
+// .footer {
+//     background-color: #f5f5f5;
+// }
+
+// .color-black{
+//   color: #000;
+// }
+// img {
+//   height: 100%;
+//   width: 100%;
+// }
+
+* {
+  font-family: 'Noto Serif TC', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mb-avatar-100 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
+.avatar200 {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #eee;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mb-list-no-style {
+  list-style-type: none;
+}
+
+/*      登入頁面       */
+.mb-login-content {
+  display: flex;
+}
+.mb-login-background-big {
+  height: 90vh;
+  width: 50%;
+  transition: 0.5s;
+}
+.mb-login-background-small {
+  display: none;
+}
+
+.mb-show-pwd {
+  width: 25px;
+  height: 25px;
+  margin: -37px 0 0 340px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mb-show-pwd2 {
+  width: 25px;
+  height: 25px;
+  margin: -37px 0 0 355px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mb-show-pwd3 {
+  width: 25px;
+  height: 25px;
+  margin: -50px 0 0 250px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mb-show-pwd4 {
+  width: 25px;
+  height: 25px;
+  margin: -33px 0 0 310px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .mb-login-content {
+    display: flex;
+    flex-direction: column;
+    .mb-login-form {
+      align-self: center;
+      margin-top: -780px;
+      margin-bottom: 65px;
+      width: 470px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
+      padding-bottom: 50px;
+    }
+  }
+  .mb-login-background-small {
+    height: 90vh;
+    width: 100%;
+    transition: 0.5s;
+    display: inline;
+  }
+  .mb-login-background-big {
+    display: none;
+  }
+  .mb-login-logo {
+    margin-top: 0px;
+    img {
+      margin-top: -50px;
+    }
+  }
+
+  .mb-show-pwd {
+    margin: -37px 0 0 370px;
+  }
+  .mb-show-pwd2 {
+    margin: -37px 0 0 370px;
+  }
+}
+
+.mb-login-form {
+  margin: 0px auto;
+}
+
+.mb-login-logo {
+  width: 400px;
+  margin: 0px auto;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.mb-login-input {
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border: 1px solid #dddddd;
+}
+.mb-login-input-again {
+  width: 300px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border: 1px solid #dddddd;
+}
+
+.mb-show-pwd img:hover {
+  border-radius: 50%;
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+.mb-show-pwd2 img:hover {
+  border-radius: 50%;
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+.mb-show-pwd3 img:hover {
+  border-radius: 50%;
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+.mb-show-pwd4 img:hover {
+  border-radius: 50%;
+  background-color: rgb(223, 223, 223);
+  cursor: pointer;
+}
+
+.mb-losepwd {
+  color: red;
+  cursor: pointer;
+  text-align: center;
+  width: 80px;
+  margin-left: 280px;
+  margin-top: 10px;
+}
+.mb-button {
+  width: $mb-button-width;
+  height: $mb-button-hight;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0px;
+}
+.mb-login-button {
+  margin-right: 25px;
+}
+
+.mb-brown {
+  color: #fff;
+  background-color: #e18e12;
+}
+
+.mb-yellow {
+  color: #fff;
+  background-color: #ffbb00;
+}
+.mb-blue {
+  color: #fff;
+  background-color: #02afc4;
+}
+.mb-red-orange {
+  color: #fff;
+  background-color: #f35100;
+}
+
+.mb-text-line {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+.mb-text-line::before {
+  content: '';
+  display: block;
+  //  width: 100px;
+  border-top: 1px solid #777;
+  flex: 1 1 0;
+}
+.mb-text-line::after {
+  content: '';
+  //  width: 100px;
+  border-top: 1px solid #777;
+  flex: 1 1 0;
+}
+
+.mb-login-icon {
+  width: 70px;
+  height: 70px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*----------------會員中心--------------*/
+
+.mb-content {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  max-width: 1200px;
+}
+
+.mb-aside-menu {
+  // border: 1px solid rgb(168, 168, 168);
+  margin-top: 100px;
+  text-align: center;
+  flex: 0 0 15%;
+  height: 660px;
+  width: 200px;
+}
+
+.mb-aside-menu li {
+  padding: 15px 0px;
+  display: block;
+}
+
+.mb-aside-menu li:nth-child(1) {
+  width: 100%;
+  background-color: #145041;
+  color: white;
+}
+.mb-aside-menu li:nth-child(2) {
+  background-color: #5e994a;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.mb-aside-menu li:nth-child(7) {
+  background-color: #5e994a;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.mb-aside-menu li:nth-child(10) {
+  background-color: #5e994a;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+.ww:hover {
+  background-color: #cff1d5;
+}
+
+.mb-right-content {
+  margin-top: 100px;
+  flex: 0 0 80%;
+  max-width: 1000px;
+  margin-left: 100px;
+}
+
+.mb-right-content-bcg {
+  padding: 50px;
+  background-color: $mb-gray-bcg;
+}
+
+.mb-imformation-title {
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000;
+}
+
+.mb-card {
+  width: 400px;
+  height: 220px;
+  margin: 0px 50px;
+}
+
+/*-----------會員基本資料------------*/
+
+.mb-avatar-button {
+  width: $mb-avatar-button-width;
+  height: $mb-avatar-button-hight;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.mb-input-box,
+.mb-redio-box {
+  width: 43%;
+  height: 70px;
+  margin: 10px 0px;
+}
+
+.mb-input-box input {
+  width: 350px;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #dddddd;
+}
+
+.mb-input-box label {
+  display: block;
+}
+.mb-profile-form {
+  width: 700px;
+  margin: -20px 0px 0px 50px;
+}
+.mb-profile-buttom {
+  margin: 150px 0 50px -430px;
+}
+
+/*-----------我的收件地址------------*/
+
+.mb-addressBook-icon {
+  width: 200px;
+  height: 200px;
+  margin-top: 150px;
+}
+
+.mb-address-content {
+  width: 920px;
+  // border: 1px solid #000;
+}
+
+.mb-address-button-margin {
+  margin-top: 1px;
+}
+.qq {
+  border: 1px solid #000;
+}
+
+.mb-profile-edit-tittle {
+  margin: 20px 0px -30px 20px;
+  border-bottom: 1px solid #dddddd;
+  width: 700px;
+}
+
+// 優惠卷--------------------------
+.mb-coupon-card {
+  width: 400px;
+  height: 370px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  .mb-coupon-pic {
+    img {
+      width: 400px;
+    }
+  }
+  div {
+    p,
+    h3 {
+      margin-left: 12px;
+      margin-top: 5px;
+    }
+  }
+  button {
+    background-color: #1b7a2d;
+    color: #fff;
+    width: 110px;
+    height: 50px;
+    border: 0px;
+    border-radius: 8px;
+    margin: 0 0 0 270px;
+  }
+}
+.mb-coupon-tag {
+  display: flex;
+  div {
+    background-color: #1b7a2d;
+    color: #fff;
+    margin: 10px 0 0 12px;
+    width: 70px;
+  }
+}
+
+// 忘記密碼---------------------
+.mb-losepassword {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  height: 420px;
+  width: 80%;
+  // background: url(./../images/qwe.png);
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+  label {
+    margin-bottom: 20px;
+  }
+  input {
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 10px;
+  }
+}
+
+// 客服----------------------
+.mb-cs-icon {
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  cursor: pointer;
+  right: 20px;
+  top: 700px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.mb-cs-window {
+  position: fixed;
+  z-index: 999;
+  right: 30px;
+  top: 230px;
+  width: 400px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  .mb-cs-line {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 15px;
+    height: 25px;
+    width: 23px;
+    img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+  .mb-cs-title {
+    width: 100%;
+    border-bottom: 3px solid #e6e6e6;
+  }
+
+  .mb-cs-content {
+    // border: 1px solid #000;
+    width: 380px;
+    height: 460px;
+    margin: 10px 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    // 客服訊息
+    .mb-cs-cs {
+      display: flex;
+      margin-bottom: 15px;
+
+      .mb-cs-cs-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #dddddd;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .mb-cs-cs-message {
+        width: 240px;
+        border: 1px solid #dddddd;
+        padding: 10px;
+        padding-bottom: 0px;
+        margin-left: 15px;
+        border-radius: 15px;
+        p {
+          margin-bottom: 0px;
+        }
+      }
+      .mb-cs-cs-time {
+        margin: 5px 0 0 25px;
+      }
+    }
+    // 會員訊息
+    .mb-cs-user {
+      display: flex;
+      margin-left: 70px;
+      margin-bottom: 15px;
+
+      .mb-cs-user-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #dddddd;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .mb-cs-user-message {
+        width: 240px;
+        border: 1px solid #dddddd;
+        padding: 10px;
+        padding-bottom: 0px;
+        margin-right: 15px;
+        border-radius: 15px;
+        p {
+          margin-bottom: 0px;
+        }
+      }
+      .mb-cs-user-time {
+        margin: 5px 0 0 25px;
+      }
+    }
+  }
+  .mb-cs-input-area {
+    // border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    input {
+      width: 310px;
+      margin-left: 20px;
+      padding: 7px 10px;
+      font-size: 18px;
+      border: 1px solid #dddddd;
+    }
+    .mb-cs-input-arrow {
+      margin-top: 3px;
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+// 客服回話視窗
+.mb-cs-staff-window {
+  margin: 200px auto;
+  width: 600px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  .mb-cs-aside {
+    width: 200px;
+    height: 100%;
+    border-right: 3px solid #dddddd;
+    // background-color: #aaf;
+    .mb-cs-aside-list {
+      width: 150px;
+      height: 50px;
+      border: 1px solid #000;
+      margin-left: -15px;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      
+      p{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  .mb-cs-line {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 15px;
+    height: 25px;
+    width: 23px;
+    img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+  .mb-cs-staff-title {
+    width: 100%;
+    border-bottom: 3px solid #e6e6e6;
+  }
+
+  .mb-cs-content {
+    // border: 1px solid #000;
+    width: 380px;
+    height: 460px;
+    margin: 10px 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    // 客服訊息
+    .mb-cs-cs {
+      display: flex;
+      margin-bottom: 15px;
+
+      .mb-cs-cs-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #dddddd;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .mb-cs-cs-message {
+        width: 240px;
+        border: 1px solid #dddddd;
+        padding: 10px;
+        padding-bottom: 0px;
+        margin-left: 15px;
+        border-radius: 15px;
+        p {
+          margin-bottom: 0px;
+        }
+      }
+      .mb-cs-cs-time {
+        margin: 5px 0 0 25px;
+      }
+    }
+    // 訊息
+    .mb-cs-user {
+      display: flex;
+      margin-left: 70px;
+      margin-bottom: 15px;
+
+      .mb-cs-user-avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #dddddd;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .mb-cs-user-message {
+        width: 240px;
+        border: 1px solid #dddddd;
+        padding: 10px;
+        padding-bottom: 0px;
+        margin-right: 15px;
+        border-radius: 15px;
+        p {
+          margin-bottom: 0px;
+        }
+      }
+      .mb-cs-user-time {
+        margin: 5px 0 0 25px;
+      }
+    }
+  }
+  .mb-cs-input-area {
+    // border: 1px solid #000;
+    width: 100%;
+    height: 50px;
+    input {
+      width: 310px;
+      margin-left: 20px;
+      padding: 7px 10px;
+      font-size: 18px;
+      border: 1px solid #dddddd;
+    }
+    .mb-cs-input-arrow {
+      margin-top: 3px;
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
